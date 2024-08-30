@@ -1,0 +1,54 @@
+.input-field {
+    outline: none;
+    border: none;
+    width: 200px;
+    padding-top: 10px;
+  }
+  
+  .input-container {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+  }
+  .input-field-container {
+    position: relative;
+    display: inline-block;
+  }
+  .suggestion-box {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #efdfdf;
+  }
+  .suggestion-list {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+  }
+  .suggestion-list:hover,
+  .active {
+    background-color: #efefef;
+  }
+  .suggestion-list > img,
+  .pill-btn > img {
+    height: 20px;
+    margin-right: 10px;
+  }
+  .pill-container {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    border-radius: 20px;
+  }
+  .pill-btn {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+  }
+  
